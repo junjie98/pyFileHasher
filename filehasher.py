@@ -66,9 +66,9 @@ def quit():
 f=Frame(window)
 Label(window,text="Select Hashing Method:").pack(side=TOP,pady=10)
 Button(f,text="MD5",command=md5,width=8,borderwidth=3).pack(side=LEFT,padx=5)
-Button(f,text="SHA1",command=sha1,width=8,borderwidth=3).pack(side=LEFT,padx=5)
-Button(f,text="SHA256",command=sha256,width=8,borderwidth=3).pack(side=LEFT,padx=5)
-Button(f,text="SHA512",command=sha512,width=8,borderwidth=3).pack(side=LEFT,padx=5)
+Button(f,text="SHA-1",command=sha1,width=8,borderwidth=3).pack(side=LEFT,padx=5)
+Button(f,text="SHA-256",command=sha256,width=8,borderwidth=3).pack(side=LEFT,padx=5)
+Button(f,text="SHA-512",command=sha512,width=8,borderwidth=3).pack(side=LEFT,padx=5)
 Button(window,text="Quit",command=quit,width=8,borderwidth=3).pack(side=BOTTOM,pady=10)
 copyright_symbol = u"\u00A9"
 Label(window,text="Copyright "+copyright_symbol+" 2020 Written By: Koh Jun Jie").pack(side=BOTTOM)
